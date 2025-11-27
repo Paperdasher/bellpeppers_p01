@@ -1,0 +1,4 @@
+seanT -- 2025-11-27 3:30
+- Added README with basic fillers
+- Added gitignore
+
