@@ -46,10 +46,10 @@ def call_api(api_name, path, params={}):
     return json.loads(data)
 
 def find_area(polygon):
-    sum1 = 0
     sum2 = 0
-    polygon.replace(",", " ")
-    set = polygon.split(" ")
+    sum1 = 0
+    polygon.replace(" ", ",")
+    set = polygon.split(",")
     pair1 = []
     pair2 = []
     firstpair = []
