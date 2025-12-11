@@ -29,7 +29,7 @@ CREATE TABLE fish (
 );""")
 
 c.executescript("""
-DROP TABLE IF EXISTS entries;
+DROP TABLE IF EXISTS weapons;
 CREATE TABLE weapons (
     name TEXT,
     owner INTEGER,
